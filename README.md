@@ -3,21 +3,26 @@ go-proxymate
 
 A simple client/server tool to assist people who need to work on TCP proxies.
 
-Installation
-------------
+## What is this thing?
+
+Ostensibly, it's a client/server two-in-one for proxy developers, but it's mostly an excuse to write some Go.
+
+## Is it any good?
+
+Yes
+
+## Installation
 
 `go get github.com/politician/go-proxymate`
 
-Usage
------
+## Usage
 
 ```bash
 $ go build
 $ ./go-proxymate --help
 ```
 
-Example Output
---------------
+## Example Output
 
 ```Bash
 $ ./go-proxymate -s ":8081"
@@ -54,3 +59,6 @@ $ ./go-proxymate -s ":8081"
 2013/08/21 02:25:00 remaining connections have drained
 2013/08/21 02:25:00 goodbye
 ```
+
+
+
